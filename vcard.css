@@ -1,0 +1,113 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+    'head head head head'
+    'main main main main';
+    position: relative;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    left: 25%;
+}
+.wrapper > div {
+    background-color: darkslategrey;
+    text-align: left;
+    padding: 0px 0;
+    font-size: 15px;
+    border: 2px solid darkslategrey;
+    border-radius: 8px;
+}
+.container {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: whitesmoke;
+    padding: 3px;
+    width: 600px;
+    height: 300px;
+}
+.grid-item1 {
+    background-color: whitesmoke;
+    padding: 1px;
+    font-size: 30px;
+    text-align: left;
+}
+.grid-item2 {
+    background-color: whitesmoke;
+    padding: 30px;
+    font-size: 15px;
+    text-align: left;
+}
+.grid-item2 > div {
+    font-size: 12px;
+}
+.grid-item3 {
+    background-color: whitesmoke;
+    padding: 1px;
+    font-size: 15px;
+    text-align: left;
+}
+.grid-item3 > div {
+    font-size: 12px;
+    position: absolute;
+    top: 80px;
+}
+#image {
+    width: 125px;
+    height: 125px;
+    border: 2px solid darkslategrey;
+    border-radius: 8px;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+#text {
+    position: absolute;
+    top: 225px;
+    font-size: 15px;
+}
+#work {
+    position: absolute;
+    top: 250px;
+}
+h3 {
+    color: whitesmoke;
+    padding-left: 25px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    position: relative;
+    top: 130px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+    
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.headtext {
+    position: absolute;
+    top: 80px;
+}
+#border  {
+    border-left: 2px solid #f51c40;
+    position: absolute;
+}
