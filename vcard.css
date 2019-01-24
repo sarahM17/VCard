@@ -14,12 +14,7 @@ body  {
     left: 25%;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.75);
 }
-.github {
-    position: relative;
-    left: 200px;
-    padding: 40px;
-    float: left;
-}
+   
 .wrapper > div {
     background-color: darkslategrey;
     text-align: left;
@@ -123,4 +118,33 @@ h3  {
 #border  {
     border-left: 2px solid #f51c40;
     position: absolute;
+}
+.blauw {
+    display: flex;
+    flex-direction: row;
+}
+.buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    position: absolute;
+    left: 200px;
+    top: 5px;
+}
+
+.knop {
+    float: left;
+}
+  
+.knop a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+  
+.knop:hover {
+    background-color: #111;
 }
