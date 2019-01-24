@@ -1,3 +1,7 @@
+body  {
+    background-image: url("vector-grey-gradient-abstract-background.jpg");
+    background-repeat: no-repeat;
+}
 .wrapper {
     display: grid;
     grid-template-areas:
@@ -5,9 +9,16 @@
     'main main main main';
     position: relative;
     width: 600px;
-    height: 400px;
+    height: 365px;
     top: 100px;
     left: 25%;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.75);
+}
+.github {
+    position: relative;
+    left: 200px;
+    padding: 40px;
+    float: left;
 }
 .wrapper > div {
     background-color: darkslategrey;
@@ -29,7 +40,7 @@
     background-color: whitesmoke;
     padding: 1px;
     font-size: 30px;
-    text-align: left;
+    text-align: left;  
 }
 .grid-item2 {
     background-color: whitesmoke;
@@ -69,9 +80,10 @@
     position: absolute;
     top: 250px;
 }
-h3 {
+
+h3  {
     color: whitesmoke;
-    padding-left: 25px;
+    padding-left: 10px;  
 }
 
 .fa {
@@ -103,6 +115,7 @@ h3 {
     background: #007bb5;
     color: white;
 }
+
 .headtext {
     position: absolute;
     top: 80px;
